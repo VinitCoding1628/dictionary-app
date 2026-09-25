@@ -145,8 +145,8 @@ const Dictionary = () => {
                             return (
                                 <div key={item.partOfSpeech} className="border-b border-slate-100 py-4 last:border-b-0">
                                     <div className="flex items-center gap-3">
-                                        <span className="flex h-7 w-7 items-center justify-center rounded-full bg-slate-100 text-sm text-slate-500">
-                                            {index + 1}
+                                        <span className="flex h-7 w-7 items-center justify-center rounded-full bg-slate-100 text-xs text-slate-500">
+                                        ●
                                         </span>
                                         <span className={`rounded-full px-3 py-0.5 text-xs font-medium ${style.badge}`}>
                                             {style.label}
@@ -210,7 +210,7 @@ const Dictionary = () => {
                         <p className="text-xs font-semibold tracking-[0.2em] text-slate-400 uppercase">
                             Trending searches today
                         </p>
-                        <div className="mt-4 flex flex-wrap justify-center gap-2">
+                        <div className="pt-4 flex flex-wrap justify-center gap-2">
                             {['serendipity', 'ephemeral', 'mellifluous', 'resilient', 'solitude'].map((word) => (
                                 <button
                                     key={word}

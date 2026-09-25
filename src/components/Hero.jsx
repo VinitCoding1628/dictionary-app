@@ -35,7 +35,7 @@ const Hero = () => {
         <section className='hero-bg-image lg:flex justify-between items-center rounded-xl border border-white p-10'>
             <div className='flex flex-col lg:justify-start lg:items-start md:justify-center md:items-center sm:justify-center sm:items-center justify-center items-center gap-6 lg:w-160 md:w-fit sm:w-fit w-fit'>
                 <p className='text-blue-500 text-xs font-semibold bg-white flex gap-2 items-center w-fit justify-center px-4 rounded-2xl py-1 uppercase'> <PiStarBold className='text-blue-500 text-sm shadow' /> A Modern Dictionary </p>
-                <h2 className='text-6xl font-extrabold'>Words open <span className='text-blue-500'>new worlds.</span></h2>
+                <h2 className='lg:text-6xl md:text-5xl sm:text-4xl text-4xl font-extrabold'>Words open <span className='text-blue-500'>new worlds.</span></h2>
                 <p className='text-gray-500 text-lg'>
                     Search meanings, hear pronunciations, explore examples and grow your vocabulary — one word at a time.
                 </p>
