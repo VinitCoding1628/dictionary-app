@@ -1,9 +1,8 @@
 import axios from 'axios';
-import React, { useRef, useState } from 'react'
+import { useRef, useState } from 'react'
 import { HiSearch } from "react-icons/hi";
 import { RxCross2 } from "react-icons/rx";
 import { toast } from 'sonner'
-import { AudioPlayer } from 'react-wave-audio-player'
 import { HiOutlineBookOpen, HiOutlineDocumentText } from "react-icons/hi"
 import { HiSpeakerWave } from "react-icons/hi2"
 import MusicPlayer from './MusicPlayer';
