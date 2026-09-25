@@ -103,7 +103,7 @@ const Dictionary = () => {
                             <HiOutlineBookOpen className="mt-0.5 shrink-0 text-xl text-indigo-500" />
                             <div>
                                 <p className="text-sm font-semibold text-slate-800">Word origin</p>
-                                <p className="text-sm text-slate-500 line-clamp-2">
+                                <p className="text-sm text-slate-500">
                                     {result.etymology.split(".")[0]}
                                 </p>
                             </div>
