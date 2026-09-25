@@ -11,10 +11,14 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.3",
+    "axios": "^1.20.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "react-icons": "^5.7.0",
-    "tailwindcss": "^4.3.3"
+    "react-wave-audio-player": "^1.0.3",
+    "sonner": "^2.0.8",
+    "tailwindcss": "^4.3.3",
+    "wavesurfer.js": "^8.0.1"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
