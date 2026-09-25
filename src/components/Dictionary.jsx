@@ -32,7 +32,7 @@ const Dictionary = () => {
             setResult(response.data);
         } catch (error) {
             console.log('Error while getting meaning (API error)', error)
-            toast.error('The word you entered is not valid only "English" words are allowed')
+            toast.error('The word you entered is not valid, please enter a correct word')
         }
         const timeout = setTimeout(() => {
             setLoading(false)
@@ -231,7 +231,7 @@ const Dictionary = () => {
                             </span>
                             <div>
                                 <p className="text-sm font-semibold text-slate-800">Audio Clips</p>
-                                <p className="text-xs text-slate-400">US & UK voices</p>
+                                <p className="text-xs text-slate-400">Helps to pronounce the word correctly</p>
                             </div>
                         </div>
                         <div className="flex items-center gap-3 rounded-2xl border border-slate-100 px-4 py-3 text-left">
@@ -240,7 +240,7 @@ const Dictionary = () => {
                             </span>
                             <div>
                                 <p className="text-sm font-semibold text-slate-800">Definitions</p>
-                                <p className="text-xs text-slate-400">Clear & precise</p>
+                                <p className="text-xs text-slate-400">Helps to understand the word</p>
                             </div>
                         </div>
                         <div className="flex items-center gap-3 rounded-2xl border border-slate-100 px-4 py-3 text-left">
@@ -249,7 +249,7 @@ const Dictionary = () => {
                             </span>
                             <div>
                                 <p className="text-sm font-semibold text-slate-800">Context</p>
-                                <p className="text-xs text-slate-400">Real examples</p>
+                                <p className="text-xs text-slate-400">Helps to understand easily</p>
                             </div>
                         </div>
                     </div>
