@@ -88,7 +88,7 @@ const Dictionary = () => {
             {result !== null && !loading && (
                 <div className="bg-white w-full lg:max-w-2xl md:max-w-2xl sm:w-full rounded-3xl p-8 shadow-xl flex flex-col gap-5">
                     <div>
-                        <h2 className="text-3xl font-bold text-slate-900 pt-serif-font capitalize">
+                        <h2 className="text-3xl font-bold text-slate-900 pt-serif-font capitalize text-wrap">
                             {result.word}
                         </h2>
                         {result.pronunciation?.ipa && (
