@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import WaveSurfer from 'wavesurfer.js'
 import { HiPlay, HiPause, HiSpeakerWave } from 'react-icons/hi2'
 
-const speeds = [0.75, 1, 1.5, 2]
+const speeds = [0.5, 1, 1.5]
 
 const formatTime = (seconds) => {
   if (!seconds || Number.isNaN(seconds)) return '0:00'

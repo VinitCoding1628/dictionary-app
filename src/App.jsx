@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import { Toaster } from 'sonner'
 import Dictionary from './components/Dictionary'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Hero />
         <Dictionary />
       </div>
+      <Footer />
     </div>
   )
 }
